@@ -1,5 +1,8 @@
 package ch.sedryx.zyndiummod;
 
+import ch.sedryx.zyndiummod.block.ModBlocks;
+import ch.sedryx.zyndiummod.item.ModItemGroups;
+import ch.sedryx.zyndiummod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class ZyndiumMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
