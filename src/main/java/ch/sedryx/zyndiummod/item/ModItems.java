@@ -4,9 +4,7 @@ import ch.sedryx.zyndiummod.ZyndiumMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -15,6 +13,10 @@ public class ModItems {
     public static final Item ZYNDIUM_INGOT = registerItem("zyndium_ingot", new Item(new FabricItemSettings()));
     public static final Item NEBRIUM_INGOT = registerItem("nebrium_ingot", new Item(new FabricItemSettings()));
     public static final Item YERASTILE_INGOT = registerItem("yerastile_ingot", new Item(new FabricItemSettings()));
+    public static final Item ZIPHYRITE_INGOT = registerItem("ziphyrite_ingot", new Item(new FabricItemSettings()));
+    public static final Item SILVERITE_INGOT = registerItem("silverite_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_SILVERITE = registerItem("raw_silverite", new Item(new FabricItemSettings()));
+    public static final Item SILVERITE_NUGGET = registerItem("silverite_nugget", new Item(new FabricItemSettings()));
 
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {

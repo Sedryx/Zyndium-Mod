@@ -17,5 +17,6 @@ public class ZyndiumMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
 	}
 }
