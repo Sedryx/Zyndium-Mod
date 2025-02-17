@@ -23,13 +23,9 @@ public class ModBlocks {
     public static final Block SILVERITE_ORE = registerBlock("silverite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
 
-
-
-
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return  Registry.register(Registries.BLOCK, new Identifier(ZyndiumMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ZyndiumMod.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {

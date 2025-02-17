@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_SILVERITE_BLOCK);
 
                         entries.add(ModBlocks.SILVERITE_ORE);
+
+                        entries.add(ModItems.SWORD_TEST);
                     }).build());
 
     public static void registerItemGroups() {
