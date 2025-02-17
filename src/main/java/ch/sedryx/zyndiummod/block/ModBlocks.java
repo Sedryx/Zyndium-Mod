@@ -16,12 +16,21 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block SILVERITE_BLOCK = registerBlock("silverite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block VOIDITE_BLOCK = registerBlock("voidite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+
 
     public static final Block RAW_SILVERITE_BLOCK = registerBlock("raw_silverite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+    public static final Block RAW_VOIDITE_BLOCK = registerBlock("raw_voidite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+
+
 
     public static final Block SILVERITE_ORE = registerBlock("silverite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
+    public static final Block VOIDITE_ORE = registerBlock("voidite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
 
 
 

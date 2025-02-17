@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "zyndiummod:zyndium_block"
+    "zyndiummod:zyndium_block",
+    "zyndiummod:voidite_block",
+    "zyndiummod:raw_voidite_block",
+    "zyndiummod:voidite_ore"
   ]
 }

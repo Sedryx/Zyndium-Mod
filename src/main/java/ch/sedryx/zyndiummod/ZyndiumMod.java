@@ -5,6 +5,8 @@ import ch.sedryx.zyndiummod.item.ModItemGroups;
 import ch.sedryx.zyndiummod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,8 +17,10 @@ public class ZyndiumMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 
+		FuelRegistry.INSTANCE.add(ModItems.COMPACTED_COAL, 20000);
 	}
 }

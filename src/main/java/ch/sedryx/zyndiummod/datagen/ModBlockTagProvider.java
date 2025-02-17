@@ -23,9 +23,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.SILVERITE_BLOCK)
                 .add(ModBlocks.ZYNDIUM_BLOCK)
+                .add(ModBlocks.VOIDITE_BLOCK)
 
+                .add(ModBlocks.RAW_VOIDITE_BLOCK)
                 .add(ModBlocks.RAW_SILVERITE_BLOCK)
 
+                .add(ModBlocks.VOIDITE_ORE)
                 .add(ModBlocks.SILVERITE_ORE);
 
 
@@ -39,7 +42,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.ZYNDIUM_BLOCK);
+                .add(ModBlocks.ZYNDIUM_BLOCK)
+                .add(ModBlocks.VOIDITE_BLOCK)
+                .add(ModBlocks.RAW_VOIDITE_BLOCK)
+                .add(ModBlocks.VOIDITE_ORE);
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "need_tool_level_4")))
 

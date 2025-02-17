@@ -1,6 +1,6 @@
-// 1.20.1	2025-02-17T19:08:23.8997847	Zyndium Mod/Tags for minecraft:block
-42c8e6cea20e877d8645665b2faf40a884818bfd data\minecraft\tags\blocks\needs_diamond_tool.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\need_tool_level_4.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
+// 1.20.1	2025-02-17T21:24:26.6227842	Zyndium Mod/Tags for minecraft:block
+937ef9085ad7af04aaa4962402966923b5975219 data\minecraft\tags\blocks\needs_diamond_tool.json
 9625123f9aa2df2d2b305d04ae90bce0f3c16359 data\minecraft\tags\blocks\needs_stone_tool.json
-3a9ef25064b583fe68ea9fd7de2a80d525214342 data\minecraft\tags\blocks\mineable\pickaxe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\need_tool_level_4.json
+7139d6d1d97ba019186439906c2ccc4f41b30465 data\minecraft\tags\blocks\mineable\pickaxe.json

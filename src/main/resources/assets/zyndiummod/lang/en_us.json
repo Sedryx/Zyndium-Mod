@@ -1,10 +1,24 @@
 {
+  "block.zyndiummod.silverite_ore": "Silversite Ore",
+
+  "item.zyndiummod.raw_silverite": "Raw silvertite",
+
+  "block.zyndiummod.raw_silverite_block": "Block of raw silverite",
+
   "item.zyndiummod.zyndium_ingot": "Zyndium ingot",
   "item.zyndiummod.yerastile_ingot": "Yerastile ingot",
   "item.zyndiummod.nebrium_ingot": "Nebrium ingot",
-  "item,zyndiummod.ziphyrite_ingot": "Ziphyrite ingot",
+  "item.zyndiummod.ziphyrite_ingot": "Ziphyrite ingot",
+  "item.zyndiummod.silverite_ingot": "Silverite ingot",
+  "item.zyndiummod.compacted_coal": "Compacted coal",
+
+  "item.zyndiummod.silverite_nugget": "Silverite nugget",
 
   "block.zyndiummod.zyndium_block": "Block of Zyndium",
+  "block.zyndiummod.silverite_block": "Block of Silverite",
+
+
+
 
   "itemgroup.zyndium": "Zyndium Group"
 }

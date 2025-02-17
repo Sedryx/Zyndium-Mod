@@ -1,5 +1,8 @@
-// 1.20.1	2025-02-17T19:08:23.9007883	Zyndium Mod/Block Loot Tables
+// 1.20.1	2025-02-17T21:24:26.6237876	Zyndium Mod/Block Loot Tables
+135592a066e658c18f4df452c5b64ca59489a68d data\zyndiummod\loot_tables\blocks\raw_voidite_block.json
+f8183a6c9ca5d5984cdbe8b58022ba37f2f25c74 data\zyndiummod\loot_tables\blocks\voidite_block.json
 09cda1db7daa12593b31a83ff591fe3245cc27d6 data\zyndiummod\loot_tables\blocks\zyndium_block.json
 a82433e03e1717a512c40484d018da15be60164b data\zyndiummod\loot_tables\blocks\silverite_ore.json
 432ce902b269b9831feae1582407dace38910838 data\zyndiummod\loot_tables\blocks\silverite_block.json
 e3320a46a5ba8f1a050d3bdc450ad47f6b7e40a5 data\zyndiummod\loot_tables\blocks\raw_silverite_block.json
+1fc33659622bac7f3e49e37bf587dca6576ddcf1 data\zyndiummod\loot_tables\blocks\voidite_ore.json

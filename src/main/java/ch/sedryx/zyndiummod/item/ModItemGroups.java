@@ -20,15 +20,24 @@ public class ModItemGroups {
                         entries.add(ModItems.NEBRIUM_INGOT);
                         entries.add(ModItems.ZIPHYRITE_INGOT);
                         entries.add(ModItems.SILVERITE_INGOT);
-                        entries.add(ModItems.RAW_SILVERITE);
+                        entries.add(ModItems.COMPACTED_COAL);
+                        entries.add(ModItems.VOIDITE_INGOT);
+
                         entries.add(ModItems.SILVERITE_NUGGET);
+                        entries.add(ModItems.VOIDITE_NUGGET);
 
                         entries.add(ModBlocks.ZYNDIUM_BLOCK);
                         entries.add(ModBlocks.SILVERITE_BLOCK);
+                        entries.add(ModBlocks.VOIDITE_BLOCK);
 
                         entries.add(ModBlocks.RAW_SILVERITE_BLOCK);
+                        entries.add(ModBlocks.RAW_VOIDITE_BLOCK);
+
+                        entries.add(ModItems.RAW_SILVERITE);
+                        entries.add(ModItems.RAW_VOIDITE);
 
                         entries.add(ModBlocks.SILVERITE_ORE);
+                        entries.add(ModBlocks.VOIDITE_ORE);
                     }).build());
 
     public static void registerItemGroups() {
