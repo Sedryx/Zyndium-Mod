@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item SILVERITE_INGOT = registerItem("silverite_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_SILVERITE = registerItem("raw_silverite", new Item(new FabricItemSettings()));
     public static final Item SILVERITE_NUGGET = registerItem("silverite_nugget", new Item(new FabricItemSettings()));
+    public static final Item SWORD_TEST = registerItem("sword_test", new SwordItem(ModToolMaterials.NETHERITE, 12, 2F, new FabricItemSettings()));
 
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
