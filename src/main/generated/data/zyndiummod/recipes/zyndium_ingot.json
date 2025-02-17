@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "zyndiummod:zyndium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "zyndiummod:zyndium_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "zyndium",
+  "ingredient": {
+    "item": "zyndiummod:raw_silverite"
+  },
+  "result": "zyndiummod:silverite_ingot"
+}

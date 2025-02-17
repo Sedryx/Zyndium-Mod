@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "zyndium",
+  "ingredient": {
+    "item": "zyndiummod:raw_silverite_block"
+  },
+  "result": "zyndiummod:silverite_ingot"
+}
