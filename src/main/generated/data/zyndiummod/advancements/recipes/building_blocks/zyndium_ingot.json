@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:zyndium_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zyndium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zyndiummod:zyndium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zyndium_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:zyndium_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}
