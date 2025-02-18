@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zyndiummod:silverite_block",
+    "zyndiummod:zyndium_block",
+    "zyndiummod:raw_silverite_block",
+    "zyndiummod:silverite_ore"
+  ]
+}
