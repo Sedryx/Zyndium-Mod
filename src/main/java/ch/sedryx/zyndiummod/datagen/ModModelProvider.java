@@ -17,7 +17,9 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ZYNDIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SILVERITE_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_ORE);
 
     }
@@ -29,7 +31,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NEBRIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZIPHYRITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.SILVERITE_INGOT, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.RAW_SILVERITE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.SILVERITE_NUGGET, Models.GENERATED);
     }
 }

@@ -15,10 +15,12 @@ public class ModBlocks {
     public static final Block ZYNDIUM_BLOCK = registerBlock("zyndium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block SILVERITE_BLOCK = registerBlock("silverite_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
+
 
     public static final Block RAW_SILVERITE_BLOCK = registerBlock("raw_silverite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+
 
     public static final Block SILVERITE_ORE = registerBlock("silverite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));

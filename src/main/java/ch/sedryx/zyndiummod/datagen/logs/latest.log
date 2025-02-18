@@ -1,5 +1,5 @@
-[19:08:18] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[19:08:18] [main/INFO] (FabricLoader) Loading 59 mods:
+[12:18:11] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[12:18:12] [main/INFO] (FabricLoader) Loading 59 mods:
 	- fabric-api 0.92.3+1.20.1
 	- fabric-api-base 0.4.31+1802ada577
 	- fabric-api-lookup-api-v1 1.6.36+1802ada577
@@ -59,14 +59,13 @@
 	- minecraft 1.20.1
 	- mixinextras 0.4.1
 	- zyndiummod 0.1-1.20.1
-[19:08:18] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Joachim/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[19:08:18] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[19:08:18] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[19:08:18] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[19:08:19] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:08:21] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 80 milliseconds
-[19:08:22] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:08:23] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[12:18:12] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/joach/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[12:18:13] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[12:18:13] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[12:18:15] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:18:22] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 257 milliseconds
+[12:18:25] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:18:26] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -84,21 +83,19 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[19:08:23] [Render thread/INFO] (Minecraft) Setting user: Player887
-[19:08:23] [Render thread/INFO] (zyndiummod) Registering Mod Item for zyndiummod
-[19:08:23] [Render thread/INFO] (zyndiummod) Registering item groups for zyndiummod
-[19:08:23] [Render thread/INFO] (zyndiummod) Registering ModBlocks for zyndiummod
-[19:08:23] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[19:08:23] [Render thread/INFO] (FabricDataGenHelper) Running data generator for zyndiummod
-[19:08:23] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Tags for minecraft:block
-[19:08:23] [Render thread/INFO] (Minecraft) Zyndium Mod/Tags for minecraft:block finished after 149 ms
-[19:08:23] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Tags for minecraft:item
-[19:08:23] [Render thread/INFO] (Minecraft) Zyndium Mod/Tags for minecraft:item finished after 0 ms
-[19:08:23] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Block Loot Tables
-[19:08:23] [Render thread/INFO] (Minecraft) Zyndium Mod/Block Loot Tables finished after 21 ms
-[19:08:23] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Model Definitions
-[19:08:23] [Render thread/INFO] (Minecraft) Zyndium Mod/Model Definitions finished after 26 ms
-[19:08:23] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Recipes
-[19:08:23] [Render thread/INFO] (Minecraft) Zyndium Mod/Recipes finished after 10 ms
-[19:08:23] [Render thread/INFO] (Minecraft) All providers took: 208 ms
-[19:08:23] [Render thread/INFO] (Minecraft) Caching: total files: 44, old count: 39, new count: 45, removed stale: 0, written: 5
+[12:18:26] [Render thread/INFO] (Minecraft) Setting user: Player771
+[12:18:26] [Render thread/INFO] (zyndiummod) Registering Mod Item for zyndiummod
+[12:18:26] [Render thread/INFO] (zyndiummod) Registering item groups for zyndiummod
+[12:18:26] [Render thread/INFO] (zyndiummod) Registering ModBlocks for zyndiummod
+[12:18:27] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[12:18:27] [Render thread/INFO] (FabricDataGenHelper) Running data generator for zyndiummod
+[12:18:28] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Tags for minecraft:block
+[12:18:28] [Render thread/INFO] (Minecraft) Zyndium Mod/Tags for minecraft:block finished after 426 ms
+[12:18:28] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Block Loot Tables
+[12:18:28] [Render thread/INFO] (Minecraft) Zyndium Mod/Block Loot Tables finished after 52 ms
+[12:18:28] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Model Definitions
+[12:18:28] [Render thread/INFO] (Minecraft) Zyndium Mod/Model Definitions finished after 85 ms
+[12:18:28] [Render thread/INFO] (Minecraft) Starting provider: Zyndium Mod/Recipes
+[12:18:28] [Render thread/INFO] (Minecraft) Zyndium Mod/Recipes finished after 37 ms
+[12:18:28] [Render thread/INFO] (Minecraft) All providers took: 606 ms
+[12:18:28] [Render thread/INFO] (Minecraft) Caching: total files: 45, old count: 44, new count: 45, removed stale: 1, written: 0
