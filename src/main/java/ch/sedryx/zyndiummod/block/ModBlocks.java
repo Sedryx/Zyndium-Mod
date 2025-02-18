@@ -27,6 +27,7 @@ public class ModBlocks {
 
 
 
+
     public static final Block SILVERITE_ORE = registerBlock("silverite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
     public static final Block VOIDITE_ORE = registerBlock("voidite_ore",
