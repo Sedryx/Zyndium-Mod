@@ -1,9 +1,9 @@
-// 1.20.1	2025-02-17T21:24:26.620777	Zyndium Mod/Model Definitions
+// 1.20.1	2025-02-18T19:25:49.5602356	Zyndium Mod/Model Definitions
 bf10295ab2a4e99abe555efc8c3b9c33045c0969 assets\zyndiummod\models\item\voidite_ingot.json
 7f2207c2cd15e01aff10bd9980f4bf2b8c21cd20 assets\zyndiummod\models\item\raw_silverite.json
 cda4f2b3fce5b6400f2d72409e190852c532e423 assets\zyndiummod\models\item\voidite_nugget.json
-50b6dec8582c4f36befbe7233a09a82a371f4ebc assets\zyndiummod\blockstates\silverite_block.json
 a810dda1928adad5a6dda3f7f5a9b99303618cd4 assets\zyndiummod\blockstates\voidite_ore.json
+50b6dec8582c4f36befbe7233a09a82a371f4ebc assets\zyndiummod\blockstates\silverite_block.json
 11aa82cccf7a65d1ec7831cf913e18c9da605cac assets\zyndiummod\models\block\zyndium_block.json
 7a7655a58d17af732213df50a0ec747eb0ef0075 assets\zyndiummod\blockstates\silverite_ore.json
 6b5709955b96d10a3923fbe15ba5de9603427faf assets\zyndiummod\models\block\voidite_ore.json
@@ -13,6 +13,7 @@ c3aafda08931430896a6fed25331d8e2c9e36a9d assets\zyndiummod\models\block\raw_void
 21bd01f21ab592ea9496be244f516ac269564aca assets\zyndiummod\models\item\raw_silverite_block.json
 2d8ae8f86cb3eded3616c9955302c33677582e6a assets\zyndiummod\models\item\ziphyrite_ingot.json
 1d95b3732cda6607414bb36cc53db62872252968 assets\zyndiummod\blockstates\zyndium_block.json
+dd8a83a7c264bb6026e18ee9b937a079af62211e assets\zyndiummod\models\item\zyndium_sword.json
 3db4ea9d45ed2ceacf37c923fb433927b3def325 assets\zyndiummod\blockstates\raw_silverite_block.json
 8169e0fdebca4400923d49c3146897a2585e3bde assets\zyndiummod\models\item\yerastile_ingot.json
 b619b8a12c510c5cb37a2656c5a71aaf38d348a1 assets\zyndiummod\models\block\voidite_block.json

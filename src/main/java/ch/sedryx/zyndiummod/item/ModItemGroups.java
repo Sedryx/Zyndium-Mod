@@ -38,6 +38,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.SILVERITE_ORE);
                         entries.add(ModBlocks.VOIDITE_ORE);
+
+                        entries.add(ModItems.ZYNDIUM_SWORD);
                     }).build());
 
     public static void registerItemGroups() {

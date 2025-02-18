@@ -19,13 +19,14 @@ public class ModItems {
     public static final Item VOIDITE_INGOT = registerItem("voidite_ingot", new Item(new FabricItemSettings()));
 
 
-
     public static final Item RAW_SILVERITE = registerItem("raw_silverite", new Item(new FabricItemSettings()));
     public static final Item RAW_VOIDITE = registerItem("raw_voidite", new Item(new FabricItemSettings()));
 
 
     public static final Item SILVERITE_NUGGET = registerItem("silverite_nugget", new Item(new FabricItemSettings()));
     public static final Item VOIDITE_NUGGET = registerItem("voidite_nugget", new Item(new FabricItemSettings()));
+
+    public static final Item ZYNDIUM_SWORD = registerItem("zyndium_sword", new SwordItem(ModToolMaterials.NETHERITE, 500, 50f, new FabricItemSettings()));
 
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
