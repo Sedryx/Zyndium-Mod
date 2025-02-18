@@ -46,3 +46,4 @@ public class ModItemGroups {
         ZyndiumMod.LOGGER.info("Registering item groups for " + ZyndiumMod.MOD_ID);
     }
 }
+//teste
