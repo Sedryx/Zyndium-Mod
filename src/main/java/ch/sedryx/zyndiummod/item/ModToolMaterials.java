@@ -1,5 +1,6 @@
 package ch.sedryx.zyndiummod.item;
 
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
@@ -9,45 +10,53 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    NETHERITE(4, 2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT}));
+    ZYNDIUM(5, 4096, 15f, 7f, 15,
+            () -> Ingredient.ofItems(ModItems.ZYNDIUM_INGOT));
 
-    private final int miningLevel;
+
+    private final int mininglevel;
     private final int itemDurability;
     private final float miningSpeed;
-    private final float attackDamage;
+    private final float attckDamage;
     private final int enchantability;
-    private final Lazy<Ingredient> repairIngredient;
+    private final Supplier<Ingredient> repairIngredient;
 
-    private ModToolMaterials(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
-        this.miningLevel = miningLevel;
+    ModToolMaterials(int mininglevel, int itemDurability, float miningSpeed, float attckDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+        this.mininglevel = mininglevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
-        this.attackDamage = attackDamage;
+        this.attckDamage = attckDamage;
         this.enchantability = enchantability;
-        this.repairIngredient = new Lazy(repairIngredient);
+        this.repairIngredient = repairIngredient;
     }
 
+    @Override
     public int getDurability() {
         return this.itemDurability;
     }
 
+    @Override
     public float getMiningSpeedMultiplier() {
         return this.miningSpeed;
     }
 
+    @Override
     public float getAttackDamage() {
-        return this.attackDamage;
+        return this.attckDamage;
     }
 
+    @Override
     public int getMiningLevel() {
-        return this.miningLevel;
+        return this.mininglevel;
     }
 
+    @Override
     public int getEnchantability() {
         return this.enchantability;
     }
 
+    @Override
     public Ingredient getRepairIngredient() {
-        return (Ingredient)this.repairIngredient.get();
+        return this.repairIngredient.get();
     }
 }
