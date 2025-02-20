@@ -5,6 +5,7 @@ import ch.sedryx.zyndiummod.item.custom.HammerItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.advancement.criterion.ItemDurabilityChangedCriterion;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -38,7 +39,7 @@ public class ModItems {
     // shovel
     public static final Item ZYNDIUM_SHOVEL = registerItem("zyndium_shovel", new ShovelItem(ModToolMaterials.ZYNDIUM, 3, 1.2f, new FabricItemSettings()));
     // hoe
-    public static final Item ZYNDIUM_HOE = registerItem("zyndium_hoe", new HoeItem(ModToolMaterials.ZYNDIUM, 3, 5.0f, new FabricItemSettings()));
+    public static final Item ZYNDIUM_HOE = registerItem("zyndium_hoe", new HoeItem(ModToolMaterials.ZYNDIUM, 3, 5.0f,new FabricItemSettings()));
     // hammer
     public static final Item HAMMER_TEST = registerItem("hammer_test", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE, 3, new FabricItemSettings()));
     public static final Item HAMMER_TEST2 = registerItem("hammer_test2", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE, 1, new FabricItemSettings()));
