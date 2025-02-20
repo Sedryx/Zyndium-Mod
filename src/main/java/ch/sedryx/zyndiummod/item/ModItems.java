@@ -1,12 +1,14 @@
 package ch.sedryx.zyndiummod.item;
 
 import ch.sedryx.zyndiummod.ZyndiumMod;
+import ch.sedryx.zyndiummod.item.custom.HammerItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -38,6 +40,7 @@ public class ModItems {
     // hoe
     public static final Item ZYNDIUM_HOE = registerItem("zyndium_hoe", new HoeItem(ModToolMaterials.ZYNDIUM, 3, 5.0f, new FabricItemSettings()));
     // hammer
+    public static final Item HAMMER_TEST = registerItem("hammer_test", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE,new FabricItemSettings()));
 
 
 

@@ -40,6 +40,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VOIDITE_ORE);
 
                         entries.add(ModItems.ZYNDIUM_SWORD);
+                        entries.add(ModItems.HAMMER_TEST);
                     }).build());
 
     public static void registerItemGroups() {
