@@ -41,6 +41,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.ZYNDIUM_SWORD);
                         entries.add(ModItems.HAMMER_TEST);
+                        entries.add(ModItems.HAMMER_TEST2);
                     }).build());
 
     public static void registerItemGroups() {

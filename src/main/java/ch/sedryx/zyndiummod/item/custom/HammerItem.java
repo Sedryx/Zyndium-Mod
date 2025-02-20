@@ -16,12 +16,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HammerItem extends MiningToolItem {
+    private final int range;
 
-    public HammerItem(ToolMaterial material, float attackDamage, float attackSpeed, TagKey<Block> effectiveBlocks, Settings settings) {
+    public HammerItem(ToolMaterial material, float attackDamage, float attackSpeed, TagKey<Block> effectiveBlocks, int range, Settings settings) {
         super(attackDamage, attackSpeed, material, BlockTags.PICKAXE_MINEABLE, settings);
+        this.range = range;
     }
 
-    public static List<BlockPos> getBlocksToBeDestroyed(int range, BlockPos initalBlockPos, ServerPlayerEntity player) {
+    public List<BlockPos> getBlocksToBeDestroyed(BlockPos initalBlockPos, ServerPlayerEntity player) {
         List<BlockPos> positions = new ArrayList<>();
         HitResult hit = player.raycast(20, 0, false);
         if (hit.getType() == HitResult.Type.BLOCK) {
@@ -29,7 +31,8 @@ public class HammerItem extends MiningToolItem {
 
             if(blockHit.getSide() == Direction.DOWN || blockHit.getSide() == Direction.UP) {
                 for(int x = -range; x <= range; x++) {
-                    for(int y = -range; y <= range; y++) {
+                    for(int y = -range; y <= range; y++).
+                    0{
                         positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY(), initalBlockPos.getZ() + y));
                     }
                 }
@@ -53,5 +56,9 @@ public class HammerItem extends MiningToolItem {
         }
 
         return positions;
+    }
+
+    public int getRange() {
+        return range;
     }
 }

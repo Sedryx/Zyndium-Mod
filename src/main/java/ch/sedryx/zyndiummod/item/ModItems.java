@@ -40,7 +40,8 @@ public class ModItems {
     // hoe
     public static final Item ZYNDIUM_HOE = registerItem("zyndium_hoe", new HoeItem(ModToolMaterials.ZYNDIUM, 3, 5.0f, new FabricItemSettings()));
     // hammer
-    public static final Item HAMMER_TEST = registerItem("hammer_test", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE,new FabricItemSettings()));
+    public static final Item HAMMER_TEST = registerItem("hammer_test", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE, 3, new FabricItemSettings()));
+    public static final Item HAMMER_TEST2 = registerItem("hammer_test2", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE, 1, new FabricItemSettings()));
 
 
 

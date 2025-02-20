@@ -44,5 +44,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.COMPACTED_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZYNDIUM_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAMMER_TEST, Models.GENERATED);
     }
 }
