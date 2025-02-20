@@ -28,15 +28,15 @@ public class ModItems {
     public static final Item VOIDITE_NUGGET = registerItem("voidite_nugget", new Item(new FabricItemSettings()));
 
     // sword
-    public static final Item ZYNDIUM_SWORD = registerItem("zyndium_sword", new SwordItem(ModToolMaterials.ZYNDIUM, 500, 50f, new FabricItemSettings()));
+    public static final Item ZYNDIUM_SWORD = registerItem("zyndium_sword", new SwordItem(ModToolMaterials.ZYNDIUM, 10, 2f, new FabricItemSettings()));
     // pickaxe
-    public static final Item ZYNDIUM_PICKAXE = registerItem("zyndium_pickaxe", new PickaxeItem(ModToolMaterials.ZYNDIUM, 2, 7f, new FabricItemSettings()));
+    public static final Item ZYNDIUM_PICKAXE = registerItem("zyndium_pickaxe", new PickaxeItem(ModToolMaterials.ZYNDIUM, 4, 2f, new FabricItemSettings()));
     // axe
-    public static final Item ZYNDIUM_AXE = registerItem("zyndium_pickaxe", new PickaxeItem(ModToolMaterials.ZYNDIUM, 2, 7f, new FabricItemSettings()));
+    public static final Item ZYNDIUM_AXE = registerItem("zyndium_axe", new AxeItem(ModToolMaterials.ZYNDIUM, 12, 1.2f, new FabricItemSettings()));
     // shovel
-    public static final Item ZYNDIUM_SHOVEL = registerItem("zyndium_pickaxe", new PickaxeItem(ModToolMaterials.ZYNDIUM, 2, 7f, new FabricItemSettings()));
+    public static final Item ZYNDIUM_SHOVEL = registerItem("zyndium_shovel", new ShovelItem(ModToolMaterials.ZYNDIUM, 3, 1.2f, new FabricItemSettings()));
     // hoe
-    public static final Item ZYNDIUM_HOW = registerItem("zyndium_pickaxe", new PickaxeItem(ModToolMaterials.ZYNDIUM, 2, 7f, new FabricItemSettings()));
+    public static final Item ZYNDIUM_HOE = registerItem("zyndium_hoe", new HoeItem(ModToolMaterials.ZYNDIUM, 3, 5.0f, new FabricItemSettings()));
     // hammer
 
 
