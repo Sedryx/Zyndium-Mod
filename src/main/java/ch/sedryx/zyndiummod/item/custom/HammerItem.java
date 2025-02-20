@@ -1,7 +1,6 @@
 package ch.sedryx.zyndiummod.item.custom;
 
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
 import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.tag.BlockTags;
@@ -31,8 +30,8 @@ public class HammerItem extends MiningToolItem {
 
             if(blockHit.getSide() == Direction.DOWN || blockHit.getSide() == Direction.UP) {
                 for(int x = -range; x <= range; x++) {
-                    for(int y = -range; y <= range; y++).
-                    0{
+                    for(int y = -range; y <= range; y++)
+                    {
                         positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY(), initalBlockPos.getZ() + y));
                     }
                 }
@@ -58,7 +57,4 @@ public class HammerItem extends MiningToolItem {
         return positions;
     }
 
-    public int getRange() {
-        return range;
-    }
 }
