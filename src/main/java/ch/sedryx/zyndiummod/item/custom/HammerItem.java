@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HammerItem extends MiningToolItem {
+
     public HammerItem(ToolMaterial material, float attackDamage, float attackSpeed, TagKey<Block> effectiveBlocks, Settings settings) {
         super(attackDamage, attackSpeed, material, BlockTags.PICKAXE_MINEABLE, settings);
     }

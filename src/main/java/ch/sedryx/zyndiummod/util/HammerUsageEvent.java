@@ -28,7 +28,7 @@ public class HammerUsageEvent implements PlayerBlockBreakEvents.Before{
                 return true;
             }
 
-            for(BlockPos position : HammerItem.getBlocksToBeDestroyed(1, pos, serverPlayer)) {
+            for(BlockPos position : HammerItem.getBlocksToBeDestroyed(1,pos, serverPlayer)) {
                 if(pos == position || !hammer.isSuitableFor(mainHandItem, world.getBlockState(position))) {
                     continue;
                 }
