@@ -26,6 +26,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SILVERITE_NUGGET);
                         entries.add(ModItems.VOIDITE_NUGGET);
 
+                        entries.add(ModItems.VOIDITE_CHESTPLATE);
+                        entries.add(ModItems.VOIDITE_HELMET);
+                        entries.add(ModItems.VOIDITE_LEGGINGS);
+                        entries.add(ModItems.VOIDITE_BOOTS);
+
                         entries.add(ModBlocks.ZYNDIUM_BLOCK);
                         entries.add(ModBlocks.SILVERITE_BLOCK);
                         entries.add(ModBlocks.VOIDITE_BLOCK);
@@ -48,4 +53,3 @@ public class ModItemGroups {
         ZyndiumMod.LOGGER.info("Registering item groups for " + ZyndiumMod.MOD_ID);
     }
 }
-//test ripo

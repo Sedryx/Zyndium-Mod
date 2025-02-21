@@ -45,5 +45,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COMPACTED_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZYNDIUM_SWORD, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAMMER_TEST, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.VOIDITE_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VOIDITE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VOIDITE_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VOIDITE_BOOTS, Models.GENERATED);
     }
 }
