@@ -18,7 +18,7 @@ public class HammerItem extends MiningToolItem {
     private final int range;
     private final int range2;
 
-    public HammerItem(ToolMaterial material, float attackDamage, float attackSpeed, TagKey<Block> effectiveBlocks, int range, int range2, Settings settings) {
+    public HammerItem(ToolMaterial material, float attackDamage, float attackSpeed, int range, int range2, Settings settings) {
         super(attackDamage, attackSpeed, material, BlockTags.PICKAXE_MINEABLE, settings);
         this.range = range;
         this.range2 = range2 -1;

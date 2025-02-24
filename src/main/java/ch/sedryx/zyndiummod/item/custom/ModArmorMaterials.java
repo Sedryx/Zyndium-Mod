@@ -13,8 +13,9 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     ZYNDIUM("zyndium",50, new int[] { 10, 15, 20, 10}, 19,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5f, 2f, () -> Ingredient.ofItems(ModItems.ZYNDIUM_INGOT))
-    ;
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5f, 2f, () -> Ingredient.ofItems(ModItems.ZYNDIUM_INGOT)),
+    VOIDITE("voidite",50, new int[] { 10, 15, 20, 10}, 19,
+    SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5f, 2f, () -> Ingredient.ofItems(ModItems.VOIDITE_INGOT));
 
     private final String name;
     private final int durabilityMulitplier;

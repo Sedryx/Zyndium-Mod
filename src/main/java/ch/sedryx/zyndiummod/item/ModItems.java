@@ -2,15 +2,15 @@ package ch.sedryx.zyndiummod.item;
 
 import ch.sedryx.zyndiummod.ZyndiumMod;
 import ch.sedryx.zyndiummod.item.custom.HammerItem;
+import ch.sedryx.zyndiummod.item.custom.ModArmorItem;
 import ch.sedryx.zyndiummod.item.custom.ModArmorMaterials;
+import ch.sedryx.zyndiummod.item.custom.ModToolMaterials;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.advancement.criterion.ItemDurabilityChangedCriterion;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -42,21 +42,18 @@ public class ModItems {
     // hoe
     public static final Item ZYNDIUM_HOE = registerItem("zyndium_hoe", new HoeItem(ModToolMaterials.ZYNDIUM, 3, 5.0f,new FabricItemSettings()));
     // hammer
-    public static final Item HAMMER_TEST = registerItem("hammer_test", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE, 3, 6, new FabricItemSettings()));
-    public static final Item HAMMER_TEST2 = registerItem("hammer_test2", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, BlockTags.PICKAXE_MINEABLE, 1, 2,  new FabricItemSettings()));
+    public static final Item HAMMER_TEST = registerItem("hammer_test", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, 3, 6, new FabricItemSettings()));
+    public static final Item HAMMER_TEST2 = registerItem("hammer_test2", new HammerItem(ModToolMaterials.ZYNDIUM, 3, 5F, 1, 2, new FabricItemSettings()));
 
     // Armors
     public static final Item VOIDITE_HELMET = registerItem("voidite_helmet",
-            new ArmorItem(ModArmorMaterials.ZYNDIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.VOIDITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item VOIDITE_CHESTPLATE = registerItem("voidite_chestplate",
-            new ArmorItem(ModArmorMaterials.ZYNDIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.VOIDITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item VOIDITE_LEGGINGS = registerItem("voidite_leggings",
-            new ArmorItem(ModArmorMaterials.ZYNDIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.VOIDITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item VOIDITE_BOOTS = registerItem("voidite_boots",
-            new ArmorItem(ModArmorMaterials.ZYNDIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-
-
-
+            new ModArmorItem(ModArmorMaterials.VOIDITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
     }

@@ -1,11 +1,8 @@
-package ch.sedryx.zyndiummod.item;
+package ch.sedryx.zyndiummod.item.custom;
 
-import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.Items;
+import ch.sedryx.zyndiummod.item.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
